@@ -14,6 +14,7 @@ Note: If you checked this box, steps 4 and 5 are not needed. The reason why it i
 ![alt text](https://cdn-images-1.medium.com/max/800/1*7a9zVyGP3iMXu9aB4e_Vhw.png)
 
 3. After you finished installing, open Anaconda Prompt. Type the command below to see that you can use a Jupyter (IPython) Notebook.
+<hr>
 jupyter notebook
 
 4. If you didn’t check the add Anaconda to path argument during the installation process, you will have to add python and conda to your environment variables. You know you need to do so if you open a command prompt (not anaconda prompt) and get the following messages:
