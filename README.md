@@ -1,10 +1,10 @@
-## PyCharmAnaconda
+# PyCharmAnaconda
 Install PyCharm and Anaconda on Windows
 
 This tutorial is split into three sections. The first part is installing PyCharm. The second part is testing your installation (making a project, creating and running python files). Finally, the last part of the tutorial goes over installing packages, environment management, and java issues.
 <hr>
 
-# Part 1: Anaconda Installation
+## Part 1: Anaconda Installation
 
 1. Download and install Anaconda (windows version) from:  
 [Anaconda Download](https://www.continuum.io/downloads "Continuum Anaconda Windows Download")
@@ -34,7 +34,7 @@ You can add Python and Conda to your path by using the setx command in your comm
 
 6. Close the current command prompt and open a new one. Try typing python and conda in your command prompt to see if the paths are saved. Done!
 
-# Part 2: PyCharm Installation
+## Part 2: PyCharm Installation
 1. Download the community edition of Pycharm for your operating system: [PyCharm Windows Download(https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*9H_jhQ3pbp1AqgaJ34bbQw.png)
@@ -51,18 +51,23 @@ On Windows: Go through the default installation process until you get to the fol
 4. Select Interpreter. Since this is a Anaconda based tutorial, choose your anaconda path (you can do which conda in the terminal to see where anaconda is) and click create:
 ![alt text](https://cdn-images-1.medium.com/max/800/1*rJ01IF_VqJ2uSjAFLyMUyg.png)
 
-4. You can make a new python file by right clicking on your project > New > Python File. Name the file myfirstpythonscript.py.
+5. You can make a new python file by right clicking on your project > New > Python File. Name the file myfirstpythonscript.py.
 
 <hr>
-# Part 3: Installing Packages, Environment Management, Java Issues
+
+## Part 3: Installing Packages, Environment Management, Java Issues
 Now we are going to go over installing additional packages.Method 1: I would recommend installing packages via the command line (it is far more reliable). 
 
 You can do either a conda install or a pip install:
+```
 conda install pandas
+# OR 
 python -m pip --proxy=location-proxy.us.company.com:9090 install pandas
+```
 
-# Environment Management 
-This is the time where you can use different virtual or conda environments:
+### Environment Management 
+You can create and use different virtual or conda environments to version control projects: 
+
 ```
 # To check which version of python is installed:
 python --version
