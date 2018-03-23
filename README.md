@@ -5,7 +5,7 @@ This tutorial is split into three sections. The first part is installing PyCharm
 
 # Anaconda Installation
 1. Download and install Anaconda (windows version) from:  
-![Anaconda Download](https://www.continuum.io/downloads "Continuum Anaconda Windows Download")
+[Anaconda Download](https://www.continuum.io/downloads "Continuum Anaconda Windows Download")
 
 2.Select the default options when prompted during the installation of Anaconda.
 
@@ -29,7 +29,7 @@ You can add Python and Conda to your path by using the setx command in your comm
 
 # PyCharm Installation
 1. Download the community edition of Pycharm for your operating system: 
-![PyCharm Windows Download](https://www.jetbrains.com/pycharm/download/#section=windows)
+[PyCharm Windows Download](https://www.jetbrains.com/pycharm/download/#section=windows)
 ![alt text](https://cdn-images-1.medium.com/max/800/1*9H_jhQ3pbp1AqgaJ34bbQw.png)
 
 
