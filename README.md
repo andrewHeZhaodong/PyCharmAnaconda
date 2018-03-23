@@ -7,14 +7,14 @@ This tutorial is split into three sections. The first part is installing PyCharm
 1. Download and install Anaconda (windows version) from:  
 [Anaconda Download](https://www.continuum.io/downloads "Continuum Anaconda Windows Download")
 
-2.Select the default options when prompted during the installation of Anaconda.
+2. Select the default options when prompted during the installation of Anaconda.
 
 Note: If you checked this box, steps 4 and 5 are not needed. The reason why it isn’t preselected is a lot of people don’t have administrative rights on their computers.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*7a9zVyGP3iMXu9aB4e_Vhw.png)
 
 3. After you finished installing, open Anaconda Prompt. Type the command below to see that you can use a Jupyter (IPython) Notebook.
-# jupyter notebook
+jupyter notebook
 
 4. If you didn’t check the add Anaconda to path argument during the installation process, you will have to add python and conda to your environment variables. You know you need to do so if you open a command prompt (not anaconda prompt) and get the following messages:
 ![alt text](https://cdn-images-1.medium.com/max/800/1*81UWHjyBokvIl8oYI3mafw.png)
