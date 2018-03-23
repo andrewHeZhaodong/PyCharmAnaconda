@@ -62,38 +62,25 @@ conda install pandas
 python -m pip --proxy=location-proxy.us.company.com:9090 install pandas
 
 # Environment Management 
-This is the time where you can use different virtual or conda environments.
-
-To check which python version is installed:
-
-'''
+This is the time where you can use different virtual or conda environments:
+```
+# To check which version of python is installed:
 python --version
-'''
 
-You can even add names of packages after python=3.6 like python=3.6 pandas"
+# You can even add names of packages after python=3.6 like python=3.6 pandas
 
-'''
-conda create --name subscribe python=3.6
-'''
+# To create a new python3.6 environment called myfirstenv
+conda create --name myfirstenv python=3.6
 
-Remove your environment:
-'''
+# To remove your environment:
 conda env remove --name myfirstenv
-'''
 
-List your environments:
-'''
+# To list your environments:
 conda env list
-'''
 
-Note: Source is NOT a windows command. Just use activate environmentName and deactivate environment_name
-To get into your new environment:
-'''
+# To activate your environment:
 source activate myfirstenv
-'''
 
-To leave your environment:
-'''
+# To leave your environment:
 source deactivate
-'''
-
+```
