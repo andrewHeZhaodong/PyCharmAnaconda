@@ -35,7 +35,8 @@ You can add Python and Conda to your path by using the setx command in your comm
 6. Close the current command prompt and open a new one. Try typing python and conda in your command prompt to see if the paths are saved. Done!
 
 ## Part 2: PyCharm Installation
-1. Download the community edition of Pycharm for your operating system: [PyCharm Windows Download(https://www.jetbrains.com/pycharm/download/#section=windows)
+1. Download the community edition of Pycharm for your operating system: 
+[PyCharm Windows Download(https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*9H_jhQ3pbp1AqgaJ34bbQw.png)
 
