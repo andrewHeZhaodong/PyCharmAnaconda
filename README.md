@@ -41,12 +41,12 @@ You can add Python and Conda to your path by using the setx command in your comm
 
 ## Part 2: PyCharm Installation
 1. Download the community edition of Pycharm for your operating system: 
-[PyCharm Windows Download(https://www.jetbrains.com/pycharm/download/#section=windows)
+[PyCharm Windows Download](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 <p align="center"> <img src="https://cdn-images-1.medium.com/max/800/1*9H_jhQ3pbp1AqgaJ34bbQw.png"></p>
 
 2. Click on the file you downloaded:
-![alt text](https://cdn-images-1.medium.com/max/800/1*66Su3FJzxDq1NFNZ58y0rw.png=centerme)
+<p align="center"> <img src="https://cdn-images-1.medium.com/max/800/1*66Su3FJzxDq1NFNZ58y0rw.png"></p>
 
 On Windows: Go through the default installation process until you get to the following screen. It may seem odd, but downloading whichever JRE JetBrains recommends can make life easier.
 
